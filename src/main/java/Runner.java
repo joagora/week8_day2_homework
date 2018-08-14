@@ -11,5 +11,6 @@ public class Runner {
         DBHelper.save(file);
         file.setName("coding_stuff");
         DBHelper.update(file);
+        DBHelper.delete(file);
     }
 }
