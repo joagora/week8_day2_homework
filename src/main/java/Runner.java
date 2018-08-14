@@ -9,6 +9,7 @@ public class Runner {
         DBHelper.save(folder);
         File file = new File("coding", "rb", 3, folder);
         DBHelper.save(file);
-
+        file.setName("coding_stuff");
+        DBHelper.update(file);
     }
 }
